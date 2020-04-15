@@ -1,3 +1,13 @@
 body {
     margin: 0;
+    font-family: 'K2D', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+:root {
+    --text-color: #333;
 }

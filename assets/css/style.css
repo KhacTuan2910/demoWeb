@@ -1,0 +1,143 @@
+/* Nav styles */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+    font-weight: 400;
+}
+
+.right-side .brand {
+    letter-spacing: 1px;
+    color: var(--text-color);
+}
+
+.nav-wrapper > .left-side > div {
+    margin-left: 20px;
+    font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+    text-transform: uppercase;
+    height: 22px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    text-decoration: none;
+    color: #8a8a8a;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 2px solid var(--text-color);
+}
+
+.nav-link-wrapper a:hover {
+    color: var(--text-color);
+}
+
+.active-nav-link {
+    border-bottom: 2px solid var(--text-color);
+}
+
+.active-nav-link a {
+    color: var(--text-color) !important;
+}
+
+/* Fortfolio styles */
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+  
+.portfolio-item-wrapper {
+    position: relative;
+}
+
+.portfolio-img-background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+}
+ 
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.logo-wrapper img {
+    width: 50%;
+    border-bottom: 20px;
+}
+
+.img-text-wrapper .subtitle {
+    transition: 0.8s;
+    font-weight: 600;
+    transform-style: initial ;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle {
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+.img-darken {
+    transition: 0.8s;
+    filter: brightness(10%);
+}
+
+/*About page*/
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-img-wrapper img {
+    background-size: cover;
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+    color: lightseagreen;
+}
+
+.profile-content-wrapper .sign {
+    margin-left: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
